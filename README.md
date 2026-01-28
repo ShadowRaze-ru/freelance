@@ -1,6 +1,6 @@
-# mini freelance
+# Mini Freelance
 
-This template should help get you started developing with Vue 3 in Vite.
+# in web : https://freelance-ae474.web.app/
 
 ## Recommended IDE Setup
 
