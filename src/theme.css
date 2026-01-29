@@ -63,6 +63,8 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    margin-bottom: 2rem;
+
 }
 
 h2 {
@@ -238,7 +240,7 @@ h3 {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    min-width: 400px;
+    min-width: 300px;
     margin: 0;
 }
 .list {
@@ -423,7 +425,6 @@ h3 {
     text-align: center;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
     .container {
         padding: 0 1rem;
@@ -439,6 +440,9 @@ h3 {
 
     .card {
         padding: 1rem;
+    }
+    .card.task-cardTwo {
+        height: 620px;
     }
 
     .btn {
@@ -459,7 +463,8 @@ h3 {
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
     }
 
     h2 {
